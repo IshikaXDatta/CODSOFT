@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 50 0 0 0;
+    padding: 0;
+    padding: 9px 0;
+    text-align: center;
+    height: 100%;
+}
+
+body {
+    background-image: url('landing_pic.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Create a circular container for the image */
+.circle-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    height: 19.5vh; /* Make the container take the full viewport height */
+}
+
+/* Style the circular image */
+.circle-image img {
+    border-radius: 50%; /* Create a circular shape */
+    width: 150px; /* Set the width of the image (customize as needed) */
+    height: 150px; /* Set the height of the image (customize as needed) */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+nav a {
+    
+    color: #ffffff;
+    font-weight: default;
+    line-height: -1;
+    text-align: center;
+}
+            
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the hero section */
+#hero {
+    color: #ffffff;
+    text-align: center;
+    padding: 10 0;
+    line-height: 1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Add spacing (margin) between the navigation links */
+.nav-link {
+    margin-right: 20px; /* Adjust the value to your preferred spacing */
+}
+
+.cta-button {
+    display: inline-block;
+    height: 12%;
+    padding: 2px 10px;
+    background-color: #f2add42b; /* Customize the button color */
+    color: #aa9898c7;
+    font-weight: default;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b0848b79; /* Change the button color on hover */
+}
+
+footer {
+    text-align: center;
+    color :#ffffff7e;
+    font-weight: 100;
+}
+/* Customize other sections and styles as needed */
